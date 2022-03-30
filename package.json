@@ -1,0 +1,13 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "(cd chatApp_Server && node app) & cd chatapp_client && npm run serve",
+    "start": "(cd chatApp_Server && npm install) & cd chatApp_Server && node app"
+  },
+  "keywords": [],
+  "author": "me",
+  "license": "ISC"
+}
